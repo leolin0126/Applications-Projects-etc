@@ -2,9 +2,9 @@
 
 | 编号 | 主题 | 数据集 | 日期 | 工作内容 | 对应文件 |
 | :--- | :---: | :--- | :--- | :--- | :--- |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-02 | 1.下载数据集 | GSE18312_series_matrix.txt.gz |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-02 | 2.复现代码 | GEO_Basis_GSE18312.ipynb |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-02 | 3.生成.csv文件 | GSE18312_significant_genes.csv<br>GSE18312_all_genes_results.csv<br>GSE18312_candidate_genes.csv |
+| 01 | GEO基因差异表达分析文献复现 | GSE18312 | 2026-06-02 | 1.下载数据集 | GSE18312_series_matrix.txt.gz |
+| 01 | GEO基因差异表达分析文献复现 | GSE18312 | 2026-06-02 | 2.复现代码 | GEO_Basis_GSE18312.ipynb |
+| 01 | GEO基因差异表达分析文献复现 | GSE18312 | 2026-06-02 | 3.生成.csv文件 | GSE18312_significant_genes.csv<br>GSE18312_all_genes_results.csv<br>GSE18312_candidate_genes.csv |
 | 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-02 | 4.生成火山图、热图 | volcano.png<br>volcano_unadjusted.png<br>candidate_heatmap.png |
 | 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-04 | 1.新建文件，撰写报告（参考学位论文写作规范，建立内容框架、完成格式编辑） | GEO_Basis_GSE18312_report.doc |
 | 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-04 | 2.下载数据集原始文献 | Preliminary_evidence_of_ubiquitin_proteasome_system_dysregulation_in_schizophrenia_and_bipolar_disorder.pdf<br>Positive_symptoms_of_psychosis_correlate_with_expression_of_ubiquin_proteasome_genes_in_peripheral_blood.pdf |
