@@ -1,18 +1,128 @@
 ## 📅 项目01：GEO基因差异表达分析文献复现 进度表
 
-| 编号 | 主题 | 数据集 | 日期 | 工作内容 | 对应文件 |
-| :--- | :---: | :--- | :--- | :--- | :--- |
-| 01 | GEO基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-02 | 1.下载数据集 | GSE18312_series_matrix.txt.gz |
-| 01 | GEO基因差异表达分析文献复现 | GSE18312 | 2026-06-02 | 2.复现代码 | GEO_Basis_GSE18312.ipynb |
-| 01 | GEO基因差异表达分析文献复现 | GSE18312 | 2026-06-02 | 3.生成.csv文件 | GSE18312_significant_genes.csv<br>GSE18312_all_genes_results.csv<br>GSE18312_candidate_genes.csv |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-02 | 4.生成火山图、热图 | volcano.png<br>volcano_unadjusted.png<br>candidate_heatmap.png |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-04 | 1.新建文件，撰写报告（参考学位论文写作规范，建立内容框架、完成格式编辑） | GEO_Basis_GSE18312_report.doc |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-04 | 2.下载数据集原始文献 | Preliminary_evidence_of_ubiquitin_proteasome_system_dysregulation_in_schizophrenia_and_bipolar_disorder.pdf<br>Positive_symptoms_of_psychosis_correlate_with_expression_of_ubiquin_proteasome_genes_in_peripheral_blood.pdf |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-05 | 1.撰写报告（完成引言、摘要、复现过程中的运行环境、复现对象、数据集信息） | GEO_Basis_GSE18312_report.doc |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-08 | 1.整理复现代码、添加注释 | GEO_Basis_GSE18312_v2.ipynb<br>GEO_Basis_GSE18312_v3.ipynb |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-08 | 2.整理输出结果并截图 | GSE18312_v2_code01_output_screen01.jpg<br>GSE18312_v2_code01_output_screen02.jpg<br>GSE18312_v2_code02_output_screen01.jpg<br>GSE18312_v2_code03_output_screen01.jpg<br>GSE18312_v2_code04_output_screen01.jpg<br>GSE18312_v2_code05_output_screen01_diagnosis01.jpg<br>GSE18312_v2_code05_output_screen01_diagnosis02.jpg<br>GSE18312_v2_code06_output_screen01.jpg<br>GSE18312_v2_code06_output_screen02.jpg<br>GSE18312_v2_search.jpg<br>GSE18312_v2_download.jpg |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-08 | 3.生成.csv文件 | GSE18312_v2_significant_genes.csv<br>GSE18312_v2_all_genes_results.csv<br>GSE18312_v2_debug01_significant_genes.csv<br>GSE18312_v2_debug01_all_genes_results.csv<br>GSE18312_v2_candidate_genes.csv<br>GSE18312_v2_debug02_significant_genes.csv<br>GSE18312_v2_debug02_all_genes_results.csv |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-08 | 4.生成火山图、热图 | GSE18312_v2_volcano.png<br>GSE18312_v2_debug01_volcano.png<br>GSE18312_v2_candidate_heatmap.png<br>GSE18312_v2_debug02_volcano_unadjusted.png |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-08 | 5.撰写报告（完成复现过程中的复现代码、统计分析） | GEO_Basis_GSE18312_report.doc |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-09 | 1.撰写报告（完成复现过程中的复现结果） | GEO_Basis_GSE18312_report.doc |
-| 01 | GEO<br>基因差异表达分析<br>文献复现 | GSE18312 | 2026-06-09 | 2.撰写报告（完成复现过程中的讨论、结论，以及参考文献，调整格式、润色文字、转换格式） | GEO_Basis_GSE18312_report.doc<br>GEO_Basis_GSE18312_report.pdf |
+<table>
+  <thead>
+    <tr>
+      <th width="60">编号</th>
+      <th width="130">主题</th>
+      <th width="100">数据集</th>
+      <th width="100">日期</th>
+      <th width="180">工作内容</th>
+      <th width="380">对应文件</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-02</td>
+      <td>1.下载数据集</td>
+      <td>GSE18312_series_matrix.txt.gz</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-02</td>
+      <td>2.复现代码</td>
+      <td>GEO_Basis_GSE18312.ipynb</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-02</td>
+      <td>3.生成.csv文件</td>
+      <td>GSE18312_significant_genes.csv<br>GSE18312_all_genes_results.csv<br>GSE18312_candidate_genes.csv</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-02</td>
+      <td>4.生成火山图、热图</td>
+      <td>volcano.png<br>volcano_unadjusted.png<br>candidate_heatmap.png</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-04</td>
+      <td>1.新建文件，撰写报告（参考学位论文写作规范，建立内容框架、完成格式编辑）</td>
+      <td>GEO_Basis_GSE18312_report.doc</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-04</td>
+      <td>2.下载数据集原始文献</td>
+      <td>Preliminary_evidence_of_ubiquitin_proteasome_system_dysregulation_in_schizophrenia_and_bipolar_disorder.pdf<br>Positive_symptoms_of_psychosis_correlate_with_expression_of_ubiquin_proteasome_genes_in_peripheral_blood.pdf</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-05</td>
+      <td>1.撰写报告（完成引言、摘要、复现过程中的运行环境、复现对象、数据集信息）</td>
+      <td>GEO_Basis_GSE18312_report.doc</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-08</td>
+      <td>1.整理复现代码、添加注释</td>
+      <td>GEO_Basis_GSE18312_v2.ipynb<br>GEO_Basis_GSE18312_v3.ipynb</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-08</td>
+      <td>2.整理输出结果并截图</td>
+      <td>GSE18312_v2_code01_output_screen01.jpg<br>GSE18312_v2_code01_output_screen02.jpg<br>GSE18312_v2_code02_output_screen01.jpg<br>GSE18312_v2_code03_output_screen01.jpg<br>GSE18312_v2_code04_output_screen01.jpg<br>GSE18312_v2_code05_output_screen01_diagnosis01.jpg<br>GSE18312_v2_code05_output_screen01_diagnosis02.jpg<br>GSE18312_v2_code06_output_screen01.jpg<br>GSE18312_v2_code06_output_screen02.jpg<br>GSE18312_v2_search.jpg<br>GSE18312_v2_download.jpg</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-08</td>
+      <td>3.生成.csv文件</td>
+      <td>GSE18312_v2_significant_genes.csv<br>GSE18312_v2_all_genes_results.csv<br>GSE18312_v2_debug01_significant_genes.csv<br>GSE18312_v2_debug01_all_genes_results.csv<br>GSE18312_v2_candidate_genes.csv<br>GSE18312_v2_debug02_significant_genes.csv<br>GSE18312_v2_debug02_all_genes_results.csv</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-08</td>
+      <td>4.生成火山图、热图</td>
+      <td>GSE18312_v2_volcano.png<br>GSE18312_v2_debug01_volcano.png<br>GSE18312_v2_candidate_heatmap.png<br>GSE18312_v2_debug02_volcano_unadjusted.png</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-08</td>
+      <td>5.撰写报告（完成复现过程中的复现代码、统计分析）</td>
+      <td>GEO_Basis_GSE18312_report.doc</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-09</td>
+      <td>1.撰写报告（完成复现过程中的复现结果）</td>
+      <td>GEO_Basis_GSE18312_report.doc</td>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>GEO<br>基因差异表达分析<br>文献复现</td>
+      <td>GSE18312</td>
+      <td>2026-06-09</td>
+      <td>2.撰写报告（完成复现过程中的讨论、结论，以及参考文献，调整格式、润色文字、转换格式）</td>
+      <td>GEO_Basis_GSE18312_report.doc<br>GEO_Basis_GSE18312_report.pdf</td>
+    </tr>
+  </tbody>
+</table>
